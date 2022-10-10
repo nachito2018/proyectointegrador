@@ -1,0 +1,271 @@
+.header_flex
+{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 2rem;
+}
+.img_logo
+{
+    width: 20%;
+}
+
+.navegador
+{
+    
+    padding-right: 2.5rem;
+    width: 50%;
+    display: flex;  
+    align-items: center;    
+    justify-content: space-between;
+}
+.Contenedor_flex
+{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sección_tarjeta
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Tarjetas
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px solid    grey    ;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.Parrafo
+{
+    width: 60% ;
+}
+
+#botJavascript {
+    background-color: rgb(254, 193, 6);
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+#botReact {
+    background-color: rgb(23, 162, 183);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+#botNegocios {
+    background-color: rgb(106, 116, 125);
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+#botStartup {
+    background-color: rgb(220, 53, 70);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+
+.sectionMain {
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url(./Assets/Imagenes/ba1.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contenidoconferencia {
+    width: 40%;
+    text-align: right;
+    color: white;
+    margin-top: 300px;
+    margin-right: 150px;
+}
+
+.sectionconferencia {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sectionparrafo {
+    font-size: 1.4rem;
+    line-height: 43px;
+}
+
+.botones {
+    display: flex;
+    justify-content: right;
+}
+
+.orador {
+    display: inline-block;
+    background-color: aqua;
+    color: #16038295;
+    font-size: 1.2rem;
+    padding: 19px 17px 9px 17px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid #16c9ae 1px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#btnVerde {
+    display: inline-block;
+    background-color: rgb(9, 180, 52);
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 19px 17px 9px 17px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px)
+{
+.header_flex
+{flex-direction: column;
+
+}
+.logo
+{width: 100%;
+justify-content: space-between;
+padding-right: 2rem;
+
+}
+.navegador
+{width: 100%;
+justify-content: center;
+flex-direction: column  ;
+padding-right: initial;
+}
+.link
+{
+border: 1px solid black;
+display: inline-block;
+width: 100%;
+text-align: center;
+padding-top: 7px;
+padding-bottom: 7px;
+font-size: 1.2rem;
+}
+
+}
+
+.sectionFormularioForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.FormularioTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.FormularioParrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormularioTituloConviertete{
+    font-size: 1rem;
+}
+
+#sectionFormulario__titulos__oradores {
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (min-width:769px) and (max-width: 1024px)
+{
+
+.header_flex
+{
+height: 5rem;
+
+}
+.logo
+{
+width: 30%;
+}
+.navegador
+{
+width: 70%;
+padding: 0;
+justify-content: space-between;
+}
+}
+
+        .sectionDividida{
+            display: flex;
+            height: 70vh;
+                        
+        }
+
+        .imagenizq{ 
+
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            display: flex;
+            margin-right: 0cm;
+        
+            }
+            
+        
+        .contenidoDer{
+
+            width: 100%;
+            height: 100%;
+            background-color: #343333;
+            color: white;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left:2px ;
+        }
+
+    
